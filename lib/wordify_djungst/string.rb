@@ -1,7 +1,4 @@
-require "wordify_djungst/version"
-require "wordify_djungst/greetings"
-
-module WordifyDjungst
+module WordifyDjungst::String
   def self.reversify(str)
     str.split("").reverse.join('')
   end
